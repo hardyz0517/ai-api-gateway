@@ -1,0 +1,17 @@
+{
+  "name": "@gateway/connectors",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "@gateway/core": "workspace:*",
+    "@gateway/shared": "workspace:*"
+  },
+  "scripts": {
+    "build": "echo \"@gateway/connectors build not configured yet\"",
+    "lint": "echo \"@gateway/connectors lint not configured yet\"",
+    "typecheck": "echo \"@gateway/connectors typecheck not configured yet\""
+  }
+}

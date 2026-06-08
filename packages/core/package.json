@@ -1,0 +1,13 @@
+{
+  "name": "@gateway/core",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "build": "echo \"@gateway/core build not configured yet\"",
+    "lint": "echo \"@gateway/core lint not configured yet\"",
+    "typecheck": "echo \"@gateway/core typecheck not configured yet\""
+  }
+}

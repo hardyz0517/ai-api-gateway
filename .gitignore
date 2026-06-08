@@ -13,3 +13,5 @@ Thumbs.db
 coverage/
 .cache/
 tmp/
+.turbo/
+.pnpm-store/

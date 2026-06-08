@@ -1,0 +1,10 @@
+{
+  "name": "@gateway/api",
+  "private": true,
+  "scripts": {
+    "dev": "echo \"@gateway/api dev not configured yet\"",
+    "build": "echo \"@gateway/api build not configured yet\"",
+    "lint": "echo \"@gateway/api lint not configured yet\"",
+    "typecheck": "echo \"@gateway/api typecheck not configured yet\""
+  }
+}

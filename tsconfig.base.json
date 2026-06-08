@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "strict": true,
+    "skipLibCheck": true,
+    "noEmit": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "baseUrl": ".",
+    "paths": {
+      "@gateway/core/*": ["packages/core/src/*"],
+      "@gateway/connectors/*": ["packages/connectors/src/*"],
+      "@gateway/shared/*": ["packages/shared/src/*"]
+    }
+  }
+}
