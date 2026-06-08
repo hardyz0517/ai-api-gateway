@@ -10,8 +10,11 @@
     "esModuleInterop": true,
     "baseUrl": ".",
     "paths": {
+      "@gateway/core": ["packages/core/src/index.ts"],
       "@gateway/core/*": ["packages/core/src/*"],
+      "@gateway/connectors": ["packages/connectors/src/index.ts"],
       "@gateway/connectors/*": ["packages/connectors/src/*"],
+      "@gateway/shared": ["packages/shared/src/index.ts"],
       "@gateway/shared/*": ["packages/shared/src/*"]
     }
   }

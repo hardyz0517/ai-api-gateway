@@ -5,6 +5,9 @@
   "exports": {
     ".": "./src/index.ts"
   },
+  "dependencies": {
+    "@gateway/shared": "workspace:*"
+  },
   "scripts": {
     "build": "echo \"@gateway/core build not configured yet\"",
     "lint": "echo \"@gateway/core lint not configured yet\"",
